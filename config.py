@@ -14,4 +14,4 @@ ALLOWED_EXTENSIONS = set(['txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif'])
 #ALLOWED_EXTENSIONS = set(['wav', 'flac'])
 
 #限制文件大小
-MAX_CONTENT_LENGTH = 16 * 1024 * 1024
+MAX_CONTENT_LENGTH = 4 * 1024 * 1024

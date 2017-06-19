@@ -2,33 +2,31 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Visual Recongnition</title>
+    <title>findSimilar</title>
 </head>
 <body>
+<body>
     <div id = "selectFile">
-        <form id="uploadFile" class="wrapper" action="/uploadfile"
+        <form id="creatCollection" class="wrapper" action="/find"
         method="POST" enctype="multipart/form-data">
         <div class= "form-item">
-            <div>
-                <label>user SN</label>
-            </div>
-            <div>
-                <input type="text" name="usersn">
-            </div>
+
             <div class="form-item-attribute">
-                <label>Audio File:</label>
+                <label>Select File:</label>
             </div>
             <div class="form-item-value">
-                <input type="file" name="file" id="fileupload_input" />
+                <input type="file" name="imagefile" id="find_image" />
             </div>
             <div class="form-item-value">
-                <lable>(Maximum File size is 4MB)</lable>
+                <lable>(Maximum File size is 2MB)</lable>
             </div>
-            <input type=submit value=upload>
+
+            <input type=submit value=Query>
         </div>
         </form>
         <!--button id="upload">upload</button-->
     </div>
     </div>
+</body>
 </body>
 </html>

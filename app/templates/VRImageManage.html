@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Visual Recongnition</title>
+</head>
+<body>
+    <div id = "selectFile">
+        <form id="creatCollection" class="wrapper" action="/addImage"
+        method="POST" enctype="multipart/form-data">
+        <div class= "form-item">
+            <div>
+                <label>Collection Name</label>
+            </div>
+            <div>
+                <input type="text" name="collection_name">
+            </div>
+
+            <hr>
+            <div class="form-item-attribute">
+                <label>Image File:</label>
+            </div>
+            <div class="form-item-value">
+                <input type="file" name="imagefile" id="fileupload_input" />
+            </div>
+            <div class="form-item-value">
+                <lable>(Maximum File size is 2MB)</lable>
+            </div>
+            <div>
+                <label>Employee Name</label>
+            </div>
+            <div>
+                <input type="text" name="emp_name">
+            </div>
+            <div>
+                <label>Employee SN</label>
+            </div>
+            <div>
+                <input type="text" name="emp_SN">
+            </div>
+            <input type=submit value=upload>
+        </div>
+        </form>
+        <!--button id="upload">upload</button-->
+    </div>
+    </div>
+</body>
+</html>

@@ -1,6 +1,7 @@
-import bson.binary
+import bson.binary,json
 from io import StringIO
 from app.model.dbtest import User
+from app.controller.WatsonDevCloud import WatsonVisualRecognition
 import gridfs
 
 ##def save_file(SN,file_content):
