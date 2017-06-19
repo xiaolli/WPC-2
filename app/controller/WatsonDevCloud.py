@@ -11,7 +11,7 @@ from watson_developer_cloud import VisualRecognitionV3
 #创建VisualRecognition类
 
 class WatsonVisualRecognition:
-    api_key='c392d4ae18fbea3b94ffc0dc06e9247c5186cdb2'
+    api_key='!@#$%^&*()'    #替换
     version='2017-06-11'
     visual_Recognition = None
 

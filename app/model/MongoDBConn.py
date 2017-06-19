@@ -6,7 +6,7 @@ import ssl
 import datetime
 
 def db_connect():
-    URL = "mongodb://admin:MHFUHVSQTMAMKENR@bluemix-sandbox-dal-9-portal.8.dblayer.com:27271,bluemix-sandbox-dal-9-portal.6.dblayer.com:27271/admin?ssl=true"
+    URL = "!@#$%^&*()_"  #替换
 
     #MONGODB_URL=os.environ.get(URL)
     #print(MONGODB_URL)
